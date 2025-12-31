@@ -1,76 +1,72 @@
 <svg width="900" height="520" viewBox="0 0 900 520"
      xmlns="http://www.w3.org/2000/svg">
-
 <style>
   .bg { fill: #0d1117; }
   .txt { fill: #c9d1d9; font-family: monospace; font-size: 14px; }
   .dim { fill: #8b949e; }
   .green { fill: #7ee787; }
+  .ascii { fill: #c9d1d9; font-family: monospace; font-size: 12px; white-space: pre; }
 </style>
-
 <rect class="bg" width="100%" height="100%" rx="12"/>
-
 <!-- ASCII -->
-<text x="20" y="30" class="txt" xml:space="preserve">
-
-
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                       :                                            
-                                                      $ $                                           
-                               $                   x$   $                                          
-                              $ $$;              $    $                                         
-                              ;  :$$$         +$+     $                                        
-                               ;   $$$$;    $$      $$                                       
-                               $    $$$$$$$$        $                                       
-                               $     $$$$$$$         $$                                      
-                               .$     .$$$$$          $$.                                     
-                                X$  :$$$$$$           $$:                                    
-                                 $+$$$$$$ +          $$$                                   
-                                  $$$$$$   .$$.    .$$$$                                 
-                                 .$$$$$.     +$$$$$$$$$+                               
-                                .$$$$         $$$$$$$$$$                              
-                               .$$$$$+        $$$$$$$$$$ x                            
-                               $$$$$$$$:    $$$$$$$$$$                             
-                               $$$$$   $$$$$:$$$$$$$$$$                            
-                                $$$$ $$$$$       :$$$$$$$$                           
-                               :$$$$$$$$              :$$$$$$                          
-                              $$$$$$$                  $$$$$$$                         
-                             $$$$$$                     $$$$$$; $                        
-                           $$$$$$                   .$   $$$$$$                          
-                          $$$$$$        :$$.      x$: .$$$$$                           
-                        x$$$$$X     x$$$$$.    $$$ $$$$$.                           
-                       $$$+        $X  $$$$$;    $$$$$$$$                            
-                         $:    .$;          $$$X    X$$$$$$$                             
-                                             $$$   $$$$$$  $                              
-                                             $$   $$$$$$$   $                               
-                                             $    $$$$$$     .                               
-                                            :     $$$   $      +                                
-                                                 $$     $X                                        
-                                                $       .                                          
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-
-
-
+<text x="20" y="30" class="ascii">
+<tspan x="20" dy="0"></tspan>
+<tspan x="20" dy="1.2em"></tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em">                                                       :                                            </tspan>
+<tspan x="20" dy="1.2em">                                                      $ $                                           </tspan>
+<tspan x="20" dy="1.2em">                               $                   x$   $                                          </tspan>
+<tspan x="20" dy="1.2em">                              $ $$;              $    $                                         </tspan>
+<tspan x="20" dy="1.2em">                              ;  :$$$         +$+     $                                        </tspan>
+<tspan x="20" dy="1.2em">                               ;   $$$$;    $$      $$                                       </tspan>
+<tspan x="20" dy="1.2em">                               $    $$$$$$$$        $                                       </tspan>
+<tspan x="20" dy="1.2em">                               $     $$$$$$$         $$                                      </tspan>
+<tspan x="20" dy="1.2em">                               .$     .$$$$$          $$.                                     </tspan>
+<tspan x="20" dy="1.2em">                                X$  :$$$$$$           $$:                                    </tspan>
+<tspan x="20" dy="1.2em">                                 $+$$$$$$ +          $$$                                   </tspan>
+<tspan x="20" dy="1.2em">                                  $$$$$$   .$$.    .$$$$                                 </tspan>
+<tspan x="20" dy="1.2em">                                 .$$$$$.     +$$$$$$$$$+                               </tspan>
+<tspan x="20" dy="1.2em">                                .$$$$         $$$$$$$$$$                              </tspan>
+<tspan x="20" dy="1.2em">                               .$$$$$+        $$$$$$$$$$ x                            </tspan>
+<tspan x="20" dy="1.2em">                               $$$$$$$$:    $$$$$$$$$$                             </tspan>
+<tspan x="20" dy="1.2em">                               $$$$$   $$$$$:$$$$$$$$$$                            </tspan>
+<tspan x="20" dy="1.2em">                                $$$$ $$$$$       :$$$$$$$$                           </tspan>
+<tspan x="20" dy="1.2em">                               :$$$$$$$$              :$$$$$$                          </tspan>
+<tspan x="20" dy="1.2em">                              $$$$$$$                  $$$$$$$                         </tspan>
+<tspan x="20" dy="1.2em">                             $$$$$$                     $$$$$$; $                        </tspan>
+<tspan x="20" dy="1.2em">                           $$$$$$                   .$   $$$$$$                          </tspan>
+<tspan x="20" dy="1.2em">                          $$$$$$        :$$.      x$: .$$$$$                           </tspan>
+<tspan x="20" dy="1.2em">                        x$$$$$X     x$$$$$.    $$$ $$$$$.                           </tspan>
+<tspan x="20" dy="1.2em">                       $$$+        $X  $$$$$;    $$$$$$$$                            </tspan>
+<tspan x="20" dy="1.2em">                         $:    .$;          $$$X    X$$$$$$$                             </tspan>
+<tspan x="20" dy="1.2em">                                             $$$   $$$$$$  $                              </tspan>
+<tspan x="20" dy="1.2em">                                             $$   $$$$$$$   $                               </tspan>
+<tspan x="20" dy="1.2em">                                             $    $$$$$$     .                               </tspan>
+<tspan x="20" dy="1.2em">                                            :     $$$   $      +                                </tspan>
+<tspan x="20" dy="1.2em">                                                 $$     $X                                        </tspan>
+<tspan x="20" dy="1.2em">                                                $       .                                          </tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em">                                                                                                    </tspan>
+<tspan x="20" dy="1.2em"></tspan>
+<tspan x="20" dy="1.2em"></tspan>
+<tspan x="20" dy="1.2em"></tspan>
 </text>
-
 <!-- INFO -->
 <text x="420" y="40" class="txt">
 OS: Arch Linux, Android, Windows
 </text>
 <text x="420" y="60" class="txt">
-Uptime: 20y 7m 9d
+Uptime: 19y 7m 4d
 </text>
 <text x="420" y="80" class="txt">
 Languages: Python, JS, C++, Rust
 </text>
-
 <!-- STATS -->
 <text x="420" y="130" class="txt green">
 Repos: 16  Stars: 1
@@ -78,14 +74,11 @@ Repos: 16  Stars: 1
 <text x="420" y="150" class="txt green">
 Commits: 0+ recent
 </text>
-
 <!-- TOP LANGS -->
 <text x="420" y="200" class="txt dim">
 Top Languages:
 </text>
 <text x="420" y="220" class="txt">
-JavaScript, HTML, Shell, Scheme, Rust
+JavaScript, HTML, Scheme, Rust, Shell
 </text>
-
 </svg>
-
