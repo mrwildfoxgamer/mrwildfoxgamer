@@ -1,39 +1,81 @@
-<svg width="900" height="520" viewBox="0 0 900 520"
+<svg width="900" height="600" viewBox="0 0 900 600"
      xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+  </style>
+</defs>
 <style>
   .bg { fill: #0d1117; }
-  .txt { fill: #c9d1d9; font-family: monospace; font-size: 14px; }
+  .txt { fill: #c9d1d9; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 14px; }
   .dim { fill: #8b949e; }
   .green { fill: #7ee787; }
-  .ascii { fill: #c9d1d9; font-family: monospace; font-size: 12px; white-space: pre; }
+  .ascii { 
+    fill: #58a6ff; 
+    font-family: 'JetBrains Mono', 'Courier New', monospace; 
+    font-size: 7px;
+    white-space: pre;
+  }
 </style>
 <rect class="bg" width="100%" height="100%" rx="12"/>
-<!-- ASCII -->
-<text x="20" y="30" class="ascii">
-{{ASCII}}
+
+<!-- ASCII Fox Logo -->
+<text x="20" y="20" class="ascii" xml:space="preserve">
+<tspan x="20" dy="0">                                                                                                    </tspan>
+<tspan x="20" dy="0.9em">                                                                                                    </tspan>
+<tspan x="20" dy="0.9em">                                                                                                    </tspan>
+<tspan x="20" dy="0.9em">                                                                                                    </tspan>
+<tspan x="20" dy="0.9em">                                                       :                                            </tspan>
+<tspan x="20" dy="0.9em">                                                      $ $                                           </tspan>
+<tspan x="20" dy="0.9em">                               $$                   x$   $                                          </tspan>
+<tspan x="20" dy="0.9em">                              $ $$$$;              $$    $$                                         </tspan>
+<tspan x="20" dy="0.9em">                              ;  :$$$$$$         +$$+     $$                                        </tspan>
+<tspan x="20" dy="0.9em">                               ;   $$$$$$$$;    $$$$      $$$                                       </tspan>
+<tspan x="20" dy="0.9em">                               $    $$$$$$$$$$$$$$$        $$                                       </tspan>
+<tspan x="20" dy="0.9em">                               $     $$$$$$$$$$$$$         $$$                                      </tspan>
+<tspan x="20" dy="0.9em">                               .$     .$$$$$$$$$$          $$$.                                     </tspan>
+<tspan x="20" dy="0.9em">                                X$  :$$$$$$$$$$$           $$$$:                                    </tspan>
+<tspan x="20" dy="0.9em">                                 $$+$$$$$$$$$$$ +          $$$$$$                                   </tspan>
+<tspan x="20" dy="0.9em">                                  $$$$$$$$$$$   .$$$$.    .$$$$$$$$                                 </tspan>
+<tspan x="20" dy="0.9em">                                 .$$$$$$$$$.     +$$$$$$$$$$$$$$$$$$+                               </tspan>
+<tspan x="20" dy="0.9em">                                .$$$$$$$$         $$$$$$$$$$$$$$$$$$$$                              </tspan>
+<tspan x="20" dy="0.9em">                               .$$$$$$$$$$+        $$$$$$$$$$$$$$$$$$$ x                            </tspan>
+<tspan x="20" dy="0.9em">                               $$$$$$$$$$$$$$$$:    $$$$$$$$$$$$$$$$$$$                             </tspan>
+<tspan x="20" dy="0.9em">                               $$$$$$$$$   $$$$$$$$$:$$$$$$$$$$$$$$$$$$$                            </tspan>
+<tspan x="20" dy="0.9em">                                $$$$$$$ $$$$$$$$$$       :$$$$$$$$$$$$$$$                           </tspan>
+<tspan x="20" dy="0.9em">                               :$$$$$$$$$$$$$$$              :$$$$$$$$$$$$                          </tspan>
+<tspan x="20" dy="0.9em">                              $$$$$$$$$$$$$$                  $$$$$$$$$$$$$                         </tspan>
+<tspan x="20" dy="0.9em">                             $$$$$$$$$$$$                     $$$$$$$$$$$; $                        </tspan>
+<tspan x="20" dy="0.9em">                           $$$$$$$$$$$                   .$   $$$$$$$$$$$$                          </tspan>
+<tspan x="20" dy="0.9em">                          $$$$$$$$$$$        :$$$$.      x$$: .$$$$$$$$$$                           </tspan>
+<tspan x="20" dy="0.9em">                        x$$$$$$$$$$X     x$$$$$$$$$$.    $$$$$ $$$$$$$$$.                           </tspan>
+<tspan x="20" dy="0.9em">                       $$$$$+        $$X  $$$$$$$$$$;    $$$$$$$$$$$$$$$                            </tspan>
+<tspan x="20" dy="0.9em">                         $$:    .$;          $$$$$$X    X$$$$$$$$$$$$$$                             </tspan>
+<tspan x="20" dy="0.9em">                                             $$$$$$   $$$$$$$$$$$$  $$                              </tspan>
+<tspan x="20" dy="0.9em">                                             $$$$   $$$$$$$$$$$$$   $                               </tspan>
+<tspan x="20" dy="0.9em">                                             $$    $$$$$$$$$$$$     .                               </tspan>
+<tspan x="20" dy="0.9em">                                            :     $$$$$$   $$      +                                </tspan>
+<tspan x="20" dy="0.9em">                                                 $$$$     $X                                        </tspan>
+<tspan x="20" dy="0.9em">                                                $$       .                                          </tspan>
 </text>
+
 <!-- INFO -->
-<text x="420" y="40" class="txt">
-OS: Arch Linux, Android, Windows
+<text x="520" y="80" class="txt">
+<tspan x="520" dy="0">OS: Arch Linux, Android, Windows</tspan>
+<tspan x="520" dy="1.8em">Uptime: {{UPTIME}}</tspan>
+<tspan x="520" dy="1.8em">Languages: Python, JS, C++, Rust</tspan>
 </text>
-<text x="420" y="60" class="txt">
-Uptime: {{UPTIME}}
-</text>
-<text x="420" y="80" class="txt">
-Languages: Python, JS, C++, Rust
-</text>
+
 <!-- STATS -->
-<text x="420" y="130" class="txt green">
-Repos: {{REPOS}}  Stars: {{STARS}}
+<text x="520" y="190" class="txt green">
+<tspan x="520" dy="0">Repos: {{REPOS}}  Stars: {{STARS}}</tspan>
+<tspan x="520" dy="1.8em">Commits: {{COMMITS}}</tspan>
 </text>
-<text x="420" y="150" class="txt green">
-Commits: {{COMMITS}}
-</text>
+
 <!-- TOP LANGS -->
-<text x="420" y="200" class="txt dim">
-Top Languages:
+<text x="520" y="280" class="txt">
+<tspan x="520" dy="0" class="dim">Top Languages:</tspan>
+<tspan x="520" dy="1.8em">{{TOP_LANGS}}</tspan>
 </text>
-<text x="420" y="220" class="txt">
-{{TOP_LANGS}}
-</text>
+
 </svg>

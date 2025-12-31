@@ -17,7 +17,7 @@ if (!TOKEN) {
 
 console.log("✓ GitHub Token found");
 
-// uptime
+// uptime - calculated from 2006-05-11
 const start = new Date("2006-05-11");
 const now = new Date();
 const diff = now - start;
@@ -110,39 +110,6 @@ async function main() {
     }
     console.log("✓ template.svg found");
 
-    // ASCII art - convert to SVG text elements
-    let asciiArt = "";
-    if (fs.existsSync("ascii.txt")) {
-      const asciiContent = fs.readFileSync("ascii.txt", "utf8");
-      console.log("✓ ascii.txt loaded");
-      
-      // Split into lines and convert to SVG <tspan> elements
-      const lines = asciiContent.split('\n');
-      asciiArt = lines.map((line, index) => {
-        // Escape XML special characters
-        const escapedLine = line
-          .replace(/&/g, '&amp;')
-          .replace(/</g, '&lt;')
-          .replace(/>/g, '&gt;')
-          .replace(/"/g, '&quot;')
-          .replace(/'/g, '&apos;');
-        return `<tspan x="20" dy="${index === 0 ? '0' : '1.2em'}">${escapedLine}</tspan>`;
-      }).join('\n');
-    } else {
-      console.log("⚠ ascii.txt not found, using default ASCII art");
-      const defaultAscii = [
-        "  __  __ ____  _       _ _     _ ______         ",
-        " |  \\/  |  _ \\| |     (_) |   | |  ____|        ",
-        " | \\  / | |_) | |      _| | __| | |__ _____  __ ",
-        " | |\\/| |  _ <| | /\\ | | |/ _` |  __/ _ \\ \\/ / ",
-        " | |  | | |_) | |/  \\| | | (_| | | | (_) >  <  ",
-        " |_|  |_|____/|_/_/\\_\\_|_|\\__,_|_|  \\___/_/\\_\\ "
-      ];
-      asciiArt = defaultAscii.map((line, index) => {
-        return `<tspan x="20" dy="${index === 0 ? '0' : '1.2em'}">${line}</tspan>`;
-      }).join('\n');
-    }
-
     // Read and process template
     console.log("\nGenerating SVG...");
     let svg = fs.readFileSync("template.svg", "utf8");
@@ -153,8 +120,7 @@ async function main() {
       .replace(/\{\{REPOS\}\}/g, user.public_repos)
       .replace(/\{\{STARS\}\}/g, stars)
       .replace(/\{\{COMMITS\}\}/g, commits)
-      .replace(/\{\{TOP_LANGS\}\}/g, topLangs || "N/A")
-      .replace(/\{\{ASCII\}\}/g, asciiArt);
+      .replace(/\{\{TOP_LANGS\}\}/g, topLangs || "N/A");
 
     // Write output
     fs.writeFileSync("profile.svg", svg);
