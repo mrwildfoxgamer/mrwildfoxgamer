@@ -23,19 +23,25 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install node-fetch
+      # FIX 1: Initialize package.json with type="module" so 'import' works
+      - name: Setup Project & Install
+        run: |
+          npm init -y
+          npm pkg set type="module"
+          npm install node-fetch
 
+      # FIX 2: Use a PAT if possible for accurate commit counts
       - name: Generate SVG
         run: node generate.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # PREFERRED: Use a PAT named 'METRICS_TOKEN' (Create this in Repo Settings > Secrets)
+          # FALLBACK: secrets.GITHUB_TOKEN (Might show 0 commits for GraphQL)
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Check if SVG was generated
         run: |
           if [ -f profile.svg ]; then
             echo "✓ profile.svg exists"
-            ls -lh profile.svg
           else
             echo "❌ profile.svg not found!"
             exit 1
