@@ -5,7 +5,7 @@ const USER = "mrwildfoxgamer";
 const TOKEN = process.env.GITHUB_TOKEN;
 
 console.log("=".repeat(50));
-console.log("GitHub Profile SVG Generator (Enhanced)");
+console.log("GitHub Profile SVG Generator (Fixed)");
 console.log("=".repeat(50));
 
 if (!TOKEN) {
@@ -28,7 +28,7 @@ const uptime = `${years}y ${months}m ${days}d`;
 console.log(`✓ Uptime calculated: ${uptime}`);
 
 const headers = { 
-  Authorization: `bearer ${TOKEN}`, // GraphQL requires 'bearer', REST accepts 'token' (both work usually)
+  Authorization: `bearer ${TOKEN}`,
   "User-Agent": "GitHub-Profile-SVG-Generator"
 };
 
@@ -37,9 +37,9 @@ async function main() {
     // ---------------------------------------------------------
     // 2. FETCH COMMITS (Via GraphQL for accuracy)
     // ---------------------------------------------------------
-    // This fetches total commits for the last year, which matches the GitHub profile green squares.
     console.log(`\nFetching accurate commit count (GraphQL)...`);
     
+    // FIXED: changed stargazersCount -> stargazerCount
     const gqlQuery = {
       query: `
         query {
@@ -51,7 +51,7 @@ async function main() {
               totalCount
               nodes {
                 name
-                stargazersCount
+                stargazerCount
                 primaryLanguage {
                   name
                 }
@@ -92,9 +92,9 @@ async function main() {
     let hasNextPage = userData.repositories.pageInfo.hasNextPage;
     let endCursor = userData.repositories.pageInfo.endCursor;
 
-    // If user has > 100 repos, we need to fetch the rest
     while (hasNextPage) {
       console.log(`  > Fetching more repositories...`);
+      // FIXED: changed stargazersCount -> stargazerCount
       const nextQuery = {
         query: `
           query {
@@ -102,7 +102,7 @@ async function main() {
               repositories(first: 100, after: "${endCursor}", ownerAffiliations: OWNER, isFork: false) {
                 nodes {
                   name
-                  stargazersCount
+                  stargazerCount
                   primaryLanguage {
                     name
                   }
@@ -131,8 +131,9 @@ async function main() {
     }
 
     // Calculate Stats
+    // FIXED: Updated property access to match GraphQL result (stargazerCount)
     const repoCount = allRepos.length;
-    const starCount = allRepos.reduce((acc, repo) => acc + repo.stargazersCount, 0);
+    const starCount = allRepos.reduce((acc, repo) => acc + repo.stargazerCount, 0);
 
     console.log(`✓ Total Repos (Sources only): ${repoCount}`);
     console.log(`✓ Total Stars: ${starCount}`);
