@@ -12,7 +12,52 @@
 
 <!-- ASCII -->
 <text x="20" y="30" class="txt" xml:space="preserve">
-{{ASCII}}
+
+
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                       :                                            
+                                                      $ $                                           
+                               $                   x$   $                                          
+                              $ $$;              $    $                                         
+                              ;  :$$$         +$+     $                                        
+                               ;   $$$$;    $$      $$                                       
+                               $    $$$$$$$$        $                                       
+                               $     $$$$$$$         $$                                      
+                               .$     .$$$$$          $$.                                     
+                                X$  :$$$$$$           $$:                                    
+                                 $+$$$$$$ +          $$$                                   
+                                  $$$$$$   .$$.    .$$$$                                 
+                                 .$$$$$.     +$$$$$$$$$+                               
+                                .$$$$         $$$$$$$$$$                              
+                               .$$$$$+        $$$$$$$$$$ x                            
+                               $$$$$$$$:    $$$$$$$$$$                             
+                               $$$$$   $$$$$:$$$$$$$$$$                            
+                                $$$$ $$$$$       :$$$$$$$$                           
+                               :$$$$$$$$              :$$$$$$                          
+                              $$$$$$$                  $$$$$$$                         
+                             $$$$$$                     $$$$$$; $                        
+                           $$$$$$                   .$   $$$$$$                          
+                          $$$$$$        :$$.      x$: .$$$$$                           
+                        x$$$$$X     x$$$$$.    $$$ $$$$$.                           
+                       $$$+        $X  $$$$$;    $$$$$$$$                            
+                         $:    .$;          $$$X    X$$$$$$$                             
+                                             $$$   $$$$$$  $                              
+                                             $$   $$$$$$$   $                               
+                                             $    $$$$$$     .                               
+                                            :     $$$   $      +                                
+                                                 $$     $X                                        
+                                                $       .                                          
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+
+
+
 </text>
 
 <!-- INFO -->
@@ -20,7 +65,7 @@
 OS: Arch Linux, Android, Windows
 </text>
 <text x="420" y="60" class="txt">
-Uptime: {{UPTIME}}
+Uptime: 20y 7m 9d
 </text>
 <text x="420" y="80" class="txt">
 Languages: Python, JS, C++, Rust
@@ -28,10 +73,10 @@ Languages: Python, JS, C++, Rust
 
 <!-- STATS -->
 <text x="420" y="130" class="txt green">
-Repos: {{REPOS}}  Stars: {{STARS}}
+Repos: 16  Stars: 1
 </text>
 <text x="420" y="150" class="txt green">
-Commits: {{COMMITS}}
+Commits: 0+ recent
 </text>
 
 <!-- TOP LANGS -->
@@ -39,7 +84,7 @@ Commits: {{COMMITS}}
 Top Languages:
 </text>
 <text x="420" y="220" class="txt">
-{{TOP_LANGS}}
+JavaScript, HTML, Shell, Scheme, Rust
 </text>
 
 </svg>
