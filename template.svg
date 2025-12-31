@@ -1,0 +1,46 @@
+<svg width="900" height="520" viewBox="0 0 900 520"
+     xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .bg { fill: #0d1117; }
+  .txt { fill: #c9d1d9; font-family: monospace; font-size: 14px; }
+  .dim { fill: #8b949e; }
+  .green { fill: #7ee787; }
+</style>
+
+<rect class="bg" width="100%" height="100%" rx="12"/>
+
+<!-- ASCII -->
+<text x="20" y="30" class="txt" xml:space="preserve">
+{{ASCII}}
+</text>
+
+<!-- INFO -->
+<text x="420" y="40" class="txt">
+OS: Arch Linux, Android, Windows
+</text>
+<text x="420" y="60" class="txt">
+Uptime: {{UPTIME}}
+</text>
+<text x="420" y="80" class="txt">
+Languages: Python, JS, C++, Rust
+</text>
+
+<!-- STATS -->
+<text x="420" y="130" class="txt green">
+Repos: {{REPOS}}  Stars: {{STARS}}
+</text>
+<text x="420" y="150" class="txt green">
+Commits: {{COMMITS}}
+</text>
+
+<!-- TOP LANGS -->
+<text x="420" y="200" class="txt dim">
+Top Languages:
+</text>
+<text x="420" y="220" class="txt">
+{{TOP_LANGS}}
+</text>
+
+</svg>
+
