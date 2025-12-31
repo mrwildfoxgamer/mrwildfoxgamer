@@ -1,10 +1,11 @@
-<svg width="900" height="600" viewBox="0 0 900 600"
+<svg width="900" height="650" viewBox="0 0 900 650"
      xmlns="http://www.w3.org/2000/svg">
 <style>
   .bg { fill: #0d1117; }
   .txt { fill: #c9d1d9; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; }
   .dim { fill: #8b949e; }
   .green { fill: #7ee787; }
+  .blue { fill: #1793d1; } /* Arch Linux Blue for labels */
   .ascii { 
     fill: #58a6ff; 
     font-family: 'Consolas', 'Courier New', monospace; 
@@ -22,7 +23,6 @@
 </style>
 <rect class="bg" width="100%" height="100%" rx="12"/>
 
-<!-- ASCII Fox Logo -->
 <text x="20" y="20" class="ascii">
 <tspan x="20" y="20">                                                                                                    </tspan>
 <tspan x="20" y="27">                                                                                                    </tspan>
@@ -62,36 +62,37 @@
 <tspan x="20" y="265">                                                $$       .                                          </tspan>
 </text>
 
-<!-- INFO -->
 <text x="400" y="30" class="txt">
 <tspan x="400" y="50">Mrwildfoxgamer</tspan><tspan class="cursor">_</tspan>
 <tspan x="400" y="70">————————————————————————————————————————————————</tspan>
-<tspan x="400" y="90">OS: Arch Linux, Android, Windows</tspan>
-<tspan x="400" y="110">Uptime: {{UPTIME}}</tspan>
-<tspan x="400" y="130">Host: Alan Johny</tspan>
-<tspan x="400" y="150">Kernel: Developer6.18.2</tspan>
-<tspan x="400" y="170">IDE: NeoVim</tspan>
-<tspan x="400" y="190">Languages.Programming: Python, JS, C++, Rust</tspan>
-<tspan x="400" y="210">Languages.Markup: HTML, CSS, JSON, YAML</tspan>
+<tspan x="400" y="90"><tspan class="blue">OS:</tspan> Arch Linux, Android, Windows</tspan>
+<tspan x="400" y="110"><tspan class="blue">Uptime:</tspan> {{UPTIME}}</tspan>
+<tspan x="400" y="130"><tspan class="blue">Host:</tspan> Alan Johny</tspan>
+<tspan x="400" y="150"><tspan class="blue">Kernel:</tspan> Developer6.18.2</tspan>
+<tspan x="400" y="170"><tspan class="blue">Terminal:</tspan> kitty</tspan>
+<tspan x="400" y="190"><tspan class="blue">WM:</tspan> Hyprland</tspan>
+<tspan x="400" y="210"><tspan class="blue">Shell:</tspan> zsh</tspan>
+<tspan x="400" y="230"><tspan class="blue">Locale:</tspan> en_US.UTF-8</tspan>
+<tspan x="400" y="250"><tspan class="blue">IDE:</tspan> NeoVim</tspan>
+<tspan x="400" y="270"><tspan class="blue">Languages.Programming:</tspan> Python, JS, C++, Rust</tspan>
+<tspan x="400" y="290"><tspan class="blue">Languages.Markup:</tspan> HTML, CSS, JSON, YAML</tspan>
 </text>
 
-<!-- STATS -->
-<text x="400" y="250" class="txt">
-<tspan x="400" y="250">————————————————————————————————————————————————</tspan>
-<tspan x="400" y="270" class="green">Repos: {{REPOS}}  |  Stars: {{STARS}}</tspan>
-<tspan x="400" y="290" class="green">Commits: {{COMMITS}}</tspan>
-<tspan x="400" y="310">Hobbies.Software: Gaming, 3d.Modeling, Linux.Customization/Automation</tspan>
-<tspan x="400" y="330">Hobbies.Hardware: IoT.Projects, Pc.Building </tspan>
+<text x="400" y="330" class="txt">
+<tspan x="400" y="330">————————————————————————————————————————————————</tspan>
+<tspan x="400" y="350" class="green">Repos: {{REPOS}}  |  Stars: {{STARS}}</tspan>
+<tspan x="400" y="370" class="green">Commits: {{COMMITS}}</tspan>
+<tspan x="400" y="390"><tspan class="blue">Hobbies.Software:</tspan> Gaming, 3d.Modeling, Linux.Customization</tspan>
+<tspan x="400" y="410"><tspan class="blue">Hobbies.Hardware:</tspan> IoT.Projects, Pc.Building </tspan>
 </text>
 
-<!-- TOP LANGS -->
-<text x="400" y="350" class="txt">
-<tspan x="400" y="350">————————————————————————————————————————————————</tspan>
-<tspan x="400" y="370" class="dim">Top Languages:</tspan>
-<tspan x="400" y="390">{{TOP_LANGS}}</tspan>
+<text x="400" y="450" class="txt">
+<tspan x="400" y="450">————————————————————————————————————————————————</tspan>
+<tspan x="400" y="470" class="dim">Top Languages:</tspan>
+<tspan x="400" y="490">{{TOP_LANGS}}</tspan>
 </text>
 
-<g transform="translate(400, 420)">
+<g transform="translate(400, 520)">
   <rect x="0" y="0" width="20" height="20" fill="#0d1117"/> 
   <rect x="25" y="0" width="20" height="20" fill="#ff7b72"/> 
   <rect x="50" y="0" width="20" height="20" fill="#7ee787"/> 
@@ -101,5 +102,8 @@
   <rect x="150" y="0" width="20" height="20" fill="#8b949e"/> 
   <rect x="175" y="0" width="20" height="20" fill="#c9d1d9"/> 
 </g>
+
+<g transform="translate(400, 545)">
+  <rect x="0" y="0" width="20" height="20" fill="#6e7681"/> <rect x="25" y="0" width="20" height="20" fill="#ff0000"/> <rect x="50" y="0" width="20" height="20" fill="#00ff00"/> <rect x="75" y="0" width="20" height="20" fill="#ffff00"/> <rect x="100" y="0" width="20" height="20" fill="#007fff"/> <rect x="125" y="0" width="20" height="20" fill="#ff00ff"/> <rect x="150" y="0" width="20" height="20" fill="#00ffff"/> <rect x="175" y="0" width="20" height="20" fill="#ffffff"/> </g>
 
 </svg>
