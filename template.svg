@@ -1,81 +1,80 @@
 <svg width="900" height="600" viewBox="0 0 900 600"
      xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
-  </style>
-</defs>
 <style>
   .bg { fill: #0d1117; }
-  .txt { fill: #c9d1d9; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 14px; }
+  .txt { fill: #c9d1d9; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; }
   .dim { fill: #8b949e; }
   .green { fill: #7ee787; }
   .ascii { 
     fill: #58a6ff; 
-    font-family: 'JetBrains Mono', 'Courier New', monospace; 
+    font-family: 'Consolas', 'Courier New', monospace; 
     font-size: 7px;
-    white-space: pre;
   }
+  text, tspan { white-space: pre; }
 </style>
 <rect class="bg" width="100%" height="100%" rx="12"/>
 
 <!-- ASCII Fox Logo -->
-<text x="20" y="20" class="ascii" xml:space="preserve">
-<tspan x="20" dy="0">                                                                                                    </tspan>
-<tspan x="20" dy="0.9em">                                                                                                    </tspan>
-<tspan x="20" dy="0.9em">                                                                                                    </tspan>
-<tspan x="20" dy="0.9em">                                                                                                    </tspan>
-<tspan x="20" dy="0.9em">                                                       :                                            </tspan>
-<tspan x="20" dy="0.9em">                                                      $ $                                           </tspan>
-<tspan x="20" dy="0.9em">                               $$                   x$   $                                          </tspan>
-<tspan x="20" dy="0.9em">                              $ $$$$;              $$    $$                                         </tspan>
-<tspan x="20" dy="0.9em">                              ;  :$$$$$$         +$$+     $$                                        </tspan>
-<tspan x="20" dy="0.9em">                               ;   $$$$$$$$;    $$$$      $$$                                       </tspan>
-<tspan x="20" dy="0.9em">                               $    $$$$$$$$$$$$$$$        $$                                       </tspan>
-<tspan x="20" dy="0.9em">                               $     $$$$$$$$$$$$$         $$$                                      </tspan>
-<tspan x="20" dy="0.9em">                               .$     .$$$$$$$$$$          $$$.                                     </tspan>
-<tspan x="20" dy="0.9em">                                X$  :$$$$$$$$$$$           $$$$:                                    </tspan>
-<tspan x="20" dy="0.9em">                                 $$+$$$$$$$$$$$ +          $$$$$$                                   </tspan>
-<tspan x="20" dy="0.9em">                                  $$$$$$$$$$$   .$$$$.    .$$$$$$$$                                 </tspan>
-<tspan x="20" dy="0.9em">                                 .$$$$$$$$$.     +$$$$$$$$$$$$$$$$$$+                               </tspan>
-<tspan x="20" dy="0.9em">                                .$$$$$$$$         $$$$$$$$$$$$$$$$$$$$                              </tspan>
-<tspan x="20" dy="0.9em">                               .$$$$$$$$$$+        $$$$$$$$$$$$$$$$$$$ x                            </tspan>
-<tspan x="20" dy="0.9em">                               $$$$$$$$$$$$$$$$:    $$$$$$$$$$$$$$$$$$$                             </tspan>
-<tspan x="20" dy="0.9em">                               $$$$$$$$$   $$$$$$$$$:$$$$$$$$$$$$$$$$$$$                            </tspan>
-<tspan x="20" dy="0.9em">                                $$$$$$$ $$$$$$$$$$       :$$$$$$$$$$$$$$$                           </tspan>
-<tspan x="20" dy="0.9em">                               :$$$$$$$$$$$$$$$              :$$$$$$$$$$$$                          </tspan>
-<tspan x="20" dy="0.9em">                              $$$$$$$$$$$$$$                  $$$$$$$$$$$$$                         </tspan>
-<tspan x="20" dy="0.9em">                             $$$$$$$$$$$$                     $$$$$$$$$$$; $                        </tspan>
-<tspan x="20" dy="0.9em">                           $$$$$$$$$$$                   .$   $$$$$$$$$$$$                          </tspan>
-<tspan x="20" dy="0.9em">                          $$$$$$$$$$$        :$$$$.      x$$: .$$$$$$$$$$                           </tspan>
-<tspan x="20" dy="0.9em">                        x$$$$$$$$$$X     x$$$$$$$$$$.    $$$$$ $$$$$$$$$.                           </tspan>
-<tspan x="20" dy="0.9em">                       $$$$$+        $$X  $$$$$$$$$$;    $$$$$$$$$$$$$$$                            </tspan>
-<tspan x="20" dy="0.9em">                         $$:    .$;          $$$$$$X    X$$$$$$$$$$$$$$                             </tspan>
-<tspan x="20" dy="0.9em">                                             $$$$$$   $$$$$$$$$$$$  $$                              </tspan>
-<tspan x="20" dy="0.9em">                                             $$$$   $$$$$$$$$$$$$   $                               </tspan>
-<tspan x="20" dy="0.9em">                                             $$    $$$$$$$$$$$$     .                               </tspan>
-<tspan x="20" dy="0.9em">                                            :     $$$$$$   $$      +                                </tspan>
-<tspan x="20" dy="0.9em">                                                 $$$$     $X                                        </tspan>
-<tspan x="20" dy="0.9em">                                                $$       .                                          </tspan>
+<text x="20" y="20" class="ascii">
+<tspan x="20" y="20">                                                                                                    </tspan>
+<tspan x="20" y="27">                                                                                                    </tspan>
+<tspan x="20" y="34">                                                                                                    </tspan>
+<tspan x="20" y="41">                                                                                                    </tspan>
+<tspan x="20" y="48">                                                       :                                            </tspan>
+<tspan x="20" y="55">                                                      $ $                                           </tspan>
+<tspan x="20" y="62">                               $$                   x$   $                                          </tspan>
+<tspan x="20" y="69">                              $ $$$$;              $$    $$                                         </tspan>
+<tspan x="20" y="76">                              ;  :$$$$$$         +$$+     $$                                        </tspan>
+<tspan x="20" y="83">                               ;   $$$$$$$$;    $$$$      $$$                                       </tspan>
+<tspan x="20" y="90">                               $    $$$$$$$$$$$$$$$        $$                                       </tspan>
+<tspan x="20" y="97">                               $     $$$$$$$$$$$$$         $$$                                      </tspan>
+<tspan x="20" y="104">                               .$     .$$$$$$$$$$          $$$.                                     </tspan>
+<tspan x="20" y="111">                                X$  :$$$$$$$$$$$           $$$$:                                    </tspan>
+<tspan x="20" y="118">                                 $$+$$$$$$$$$$$ +          $$$$$$                                   </tspan>
+<tspan x="20" y="125">                                  $$$$$$$$$$$   .$$$$.    .$$$$$$$$                                 </tspan>
+<tspan x="20" y="132">                                 .$$$$$$$$$.     +$$$$$$$$$$$$$$$$$$+                               </tspan>
+<tspan x="20" y="139">                                .$$$$$$$$         $$$$$$$$$$$$$$$$$$$$                              </tspan>
+<tspan x="20" y="146">                               .$$$$$$$$$$+        $$$$$$$$$$$$$$$$$$$ x                            </tspan>
+<tspan x="20" y="153">                               $$$$$$$$$$$$$$$$:    $$$$$$$$$$$$$$$$$$$                             </tspan>
+<tspan x="20" y="160">                               $$$$$$$$$   $$$$$$$$$:$$$$$$$$$$$$$$$$$$$                            </tspan>
+<tspan x="20" y="167">                                $$$$$$$ $$$$$$$$$$       :$$$$$$$$$$$$$$$                           </tspan>
+<tspan x="20" y="174">                               :$$$$$$$$$$$$$$$              :$$$$$$$$$$$$                          </tspan>
+<tspan x="20" y="181">                              $$$$$$$$$$$$$$                  $$$$$$$$$$$$$                         </tspan>
+<tspan x="20" y="188">                             $$$$$$$$$$$$                     $$$$$$$$$$$; $                        </tspan>
+<tspan x="20" y="195">                           $$$$$$$$$$$                   .$   $$$$$$$$$$$$                          </tspan>
+<tspan x="20" y="202">                          $$$$$$$$$$$        :$$$$.      x$$: .$$$$$$$$$$                           </tspan>
+<tspan x="20" y="209">                        x$$$$$$$$$$X     x$$$$$$$$$$.    $$$$$ $$$$$$$$$.                           </tspan>
+<tspan x="20" y="216">                       $$$$$+        $$X  $$$$$$$$$$;    $$$$$$$$$$$$$$$                            </tspan>
+<tspan x="20" y="223">                         $$:    .$;          $$$$$$X    X$$$$$$$$$$$$$$                             </tspan>
+<tspan x="20" y="230">                                             $$$$$$   $$$$$$$$$$$$  $$                              </tspan>
+<tspan x="20" y="237">                                             $$$$   $$$$$$$$$$$$$   $                               </tspan>
+<tspan x="20" y="244">                                             $$    $$$$$$$$$$$$     .                               </tspan>
+<tspan x="20" y="251">                                            :     $$$$$$   $$      +                                </tspan>
+<tspan x="20" y="258">                                                 $$$$     $X                                        </tspan>
+<tspan x="20" y="265">                                                $$       .                                          </tspan>
 </text>
 
 <!-- INFO -->
-<text x="520" y="80" class="txt">
-<tspan x="520" dy="0">OS: Arch Linux, Android, Windows</tspan>
-<tspan x="520" dy="1.8em">Uptime: {{UPTIME}}</tspan>
-<tspan x="520" dy="1.8em">Languages: Python, JS, C++, Rust</tspan>
+<text x="520" y="30" class="txt">
+<tspan x="520" y="50">mrwildfoxgamer</tspan>
+<tspan x="520" y="70">————————————————————————————————————————————————</tspan>
+<tspan x="520" y="90">OS: Arch Linux, Android, Windows</tspan>
+<tspan x="520" y="110">Uptime: {{UPTIME}}</tspan>
+<tspan x="520" y="130">Languages: Python, JS, C++, Rust</tspan>
 </text>
 
 <!-- STATS -->
-<text x="520" y="190" class="txt green">
-<tspan x="520" dy="0">Repos: {{REPOS}}  Stars: {{STARS}}</tspan>
-<tspan x="520" dy="1.8em">Commits: {{COMMITS}}</tspan>
+<text x="520" y="170" class="txt">
+<tspan x="520" y="170">————————————————————————————————————————————————</tspan>
+<tspan x="520" y="190" class="green">Repos: {{REPOS}}  |  Stars: {{STARS}}</tspan>
+<tspan x="520" y="210" class="green">Commits: {{COMMITS}}</tspan>
 </text>
 
 <!-- TOP LANGS -->
-<text x="520" y="280" class="txt">
-<tspan x="520" dy="0" class="dim">Top Languages:</tspan>
-<tspan x="520" dy="1.8em">{{TOP_LANGS}}</tspan>
+<text x="520" y="250" class="txt">
+<tspan x="520" y="250">————————————————————————————————————————————————</tspan>
+<tspan x="520" y="270" class="dim">Top Languages:</tspan>
+<tspan x="520" y="290">{{TOP_LANGS}}</tspan>
 </text>
 
 </svg>
