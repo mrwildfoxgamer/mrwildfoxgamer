@@ -55,32 +55,32 @@
 </text>
 
 <!-- INFO -->
-<text x="520" y="30" class="txt">
-<tspan x="520" y="50">mrwildfoxgamer</tspan>
-<tspan x="520" y="70">————————————————————————————————————————————————</tspan>
-<tspan x="520" y="90">OS: Arch Linux, Android, Windows</tspan>
-<tspan x="520" y="110">Uptime: {{UPTIME}}</tspan>
-<tspan x="520" y="130">Host: Alan Johny</tspan>
-<tspan x="520" y="150">Kernel: Developer6.18.2</tspan>
-<tspan x="520" y="170">IDE: NeoVim</tspan>
-<tspan x="520" y="190">Languages.Programming: Python, JS, C++, Rust</tspan>
-<tspan x="520" y="210">Languages.Markup: HTML, CSS, JSON, YAML</tspan>
+<text x="560" y="30" class="txt">
+<tspan x="560" y="50">mrwildfoxgamer</tspan>
+<tspan x="560" y="70">————————————————————————————————————————————————</tspan>
+<tspan x="560" y="90">OS: Arch Linux, Android, Windows</tspan>
+<tspan x="560" y="110">Uptime: {{UPTIME}}</tspan>
+<tspan x="560" y="130">Host: Alan Johny</tspan>
+<tspan x="560" y="150">Kernel: Developer6.18.2</tspan>
+<tspan x="560" y="170">IDE: NeoVim</tspan>
+<tspan x="560" y="190">Languages.Programming: Python, JS, C++, Rust</tspan>
+<tspan x="560" y="210">Languages.Markup: HTML, CSS, JSON, YAML</tspan>
 </text>
 
 <!-- STATS -->
-<text x="520" y="250" class="txt">
-<tspan x="520" y="250">————————————————————————————————————————————————</tspan>
-<tspan x="520" y="270" class="green">Repos: {{REPOS}}  |  Stars: {{STARS}}</tspan>
-<tspan x="520" y="290" class="green">Commits: {{COMMITS}}</tspan>
-<tspan x="520" y="310">Hobbies.Software: Gaming, 3d.Modeling, Linux.Customization/Automation</tspan>
-<tspan x="520" y="330">Hobbies.Hardware: IoT.Projects, Pc.Building </tspan>
+<text x="560" y="250" class="txt">
+<tspan x="560" y="250">————————————————————————————————————————————————</tspan>
+<tspan x="560" y="270" class="green">Repos: {{REPOS}}  |  Stars: {{STARS}}</tspan>
+<tspan x="560" y="290" class="green">Commits: {{COMMITS}}</tspan>
+<tspan x="560" y="310">Hobbies.Software: Gaming, 3d.Modeling, Linux.Customization/Automation</tspan>
+<tspan x="560" y="330">Hobbies.Hardware: IoT.Projects, Pc.Building </tspan>
 </text>
 
 <!-- TOP LANGS -->
-<text x="520" y="350" class="txt">
-<tspan x="520" y="350">————————————————————————————————————————————————</tspan>
-<tspan x="520" y="370" class="dim">Top Languages:</tspan>
-<tspan x="520" y="390">{{TOP_LANGS}}</tspan>
+<text x="560" y="350" class="txt">
+<tspan x="560" y="350">————————————————————————————————————————————————</tspan>
+<tspan x="560" y="370" class="dim">Top Languages:</tspan>
+<tspan x="560" y="390">{{TOP_LANGS}}</tspan>
 </text>
 
 </svg>
