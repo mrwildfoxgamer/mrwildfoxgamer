@@ -81,7 +81,7 @@
 <text x="400" y="330" class="txt">
 <tspan x="400" y="330">————————————————————————————————————————————————</tspan>
 <tspan x="400" y="350" class="green">Repos: 19  |  Stars: 1</tspan>
-<tspan x="400" y="370" class="green">Commits: 304</tspan>
+<tspan x="400" y="370" class="green">Commits: 307</tspan>
 <tspan x="400" y="390"><tspan class="blue">Hobbies.Software:</tspan> Gaming, 3d.Modeling, Linux.Customization</tspan>
 <tspan x="400" y="410"><tspan class="blue">Hobbies.Hardware:</tspan> IoT.Projects, Pc.Building </tspan>
 </text>
@@ -89,7 +89,7 @@
 <text x="400" y="450" class="txt">
 <tspan x="400" y="450">————————————————————————————————————————————————</tspan>
 <tspan x="400" y="470" class="dim">Top Languages:</tspan>
-<tspan x="400" y="490">HTML, JavaScript, CSS, GLSL, Python</tspan>
+<tspan x="400" y="490">JavaScript, HTML, CSS, GLSL, Python</tspan>
 </text>
 
 <g transform="translate(400, 520)">
