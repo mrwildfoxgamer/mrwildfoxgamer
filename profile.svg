@@ -89,7 +89,7 @@
 <text x="400" y="450" class="txt">
 <tspan x="400" y="450">————————————————————————————————————————————————</tspan>
 <tspan x="400" y="470" class="dim">Top Languages:</tspan>
-<tspan x="400" y="490">HTML, JavaScript, C++, TypeScript, Kotlin</tspan>
+<tspan x="400" y="490">JavaScript, HTML, C++, TypeScript, Kotlin</tspan>
 </text>
 
 <g transform="translate(400, 520)">
